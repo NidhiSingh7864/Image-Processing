@@ -71,7 +71,7 @@ int main(){
 	while(1){
 
 
-		capture.open("bball.mp4");
+		capture.open("bouncingBall.mp4");
 
 		if(!capture.isOpened()){
 			cout<<"ERROR ACQUIRING VIDEO FEED\n";
